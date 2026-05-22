@@ -1,0 +1,11 @@
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+.env
+.DS_Store
+
+data/database/*.db
+data/database/*.sqlite
+
+*.tmp
+*.log
