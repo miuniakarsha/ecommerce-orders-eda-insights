@@ -1,0 +1,5 @@
+Column,Mean,Standard Deviation,Z-score Outlier Count
+Quantity,2.95,1.41,0
+UnitPrice,356.41,197.18,0
+ItemsInCart,5.48,2.28,0
+TotalPrice,1053.97,819.86,0
