@@ -1,0 +1,5 @@
+,Quantity,UnitPrice,ItemsInCart,TotalPrice
+Quantity,1.0,0.01,0.65,0.62
+UnitPrice,0.01,1.0,0.0,0.72
+ItemsInCart,0.65,0.0,1.0,0.39
+TotalPrice,0.62,0.72,0.39,1.0

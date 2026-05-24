@@ -1,0 +1,7 @@
+Variable 1,Variable 2,Correlation
+UnitPrice,TotalPrice,0.72
+Quantity,ItemsInCart,0.65
+Quantity,TotalPrice,0.62
+ItemsInCart,TotalPrice,0.39
+Quantity,UnitPrice,0.01
+UnitPrice,ItemsInCart,0.0
