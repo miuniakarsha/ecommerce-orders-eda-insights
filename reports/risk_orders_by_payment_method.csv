@@ -1,0 +1,6 @@
+PaymentMethod,Normal Order,Risk Order,TotalOrders,RiskOrderRate
+Gift Card,128,102,230,44.35
+Credit Card,131,103,234,44.02
+Cash,140,106,246,43.09
+Debit Card,137,95,232,40.95
+Online,167,91,258,35.27

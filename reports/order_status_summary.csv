@@ -1,0 +1,6 @@
+OrderStatus,TotalRevenue,TotalOrders,AverageOrderValue
+Cancelled,276396.21,250,1105.58
+Returned,243277.7,247,984.93
+Pending,256328.15,237,1081.55
+Shipped,246159.58,235,1047.49
+Delivered,242600.32,231,1050.22
