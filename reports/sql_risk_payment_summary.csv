@@ -1,0 +1,6 @@
+PaymentMethod,TotalOrders,RiskOrders,RiskOrderRate
+Gift Card,230,102,44.35
+Credit Card,234,103,44.02
+Cash,246,106,43.09
+Debit Card,232,95,40.95
+Online,258,91,35.27
