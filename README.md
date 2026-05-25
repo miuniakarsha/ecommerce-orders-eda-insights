@@ -74,37 +74,37 @@ The dataset contains retail order records with information about customers, prod
 
 
 
-| Column | Description |
+| Column          | Description                       |
 
-|---|---|
+|-----------------|-----------------------------------|
 
-| OrderID | Unique order identifier |
+| OrderID         | Unique order identifier           |
 
-| Date | Order date |
+| Date            | Order date                        |
 
-| CustomerID | Unique customer identifier |
+| CustomerID      | Unique customer identifier        |
 
-| Product | Product purchased |
+| Product         | Product purchased                 |
 
-| Quantity | Number of units purchased |
+| Quantity        | Number of units purchased         |
 
-| UnitPrice | Price per unit |
+| UnitPrice       | Price per unit                    |
 
-| ShippingAddress | Customer shipping address |
+| ShippingAddress | Customer shipping address         |
 
-| PaymentMethod | Customer payment method |
+| PaymentMethod   | Customer payment method           |
 
-| OrderStatus | Current order status |
+| OrderStatus     | Current order status              |
 
-| TrackingNumber | Tracking number of the order |
+| TrackingNumber  | Tracking number of the order      |
 
-| ItemsInCart | Number of items in customer cart |
+| ItemsInCart     | Number of items in customer cart  |
 
-| CouponCode | Coupon code used |
+| CouponCode      | Coupon code used                  |
 
-| ReferralSource | Source that referred the customer |
+| ReferralSource  | Source that referred the customer |
 
-| TotalPrice | Total order value |
+| TotalPrice      | Total order value                 |
 
 
 
@@ -264,23 +264,23 @@ ecommerce-orders-eda-insights/
 
 
 
-| Metric | Value |
+| Metric                    | Value        |
 
-|---|---:|
+|---------------------------|-------------:|
 
-| Total Orders | 1,200 |
+| Total Orders              | 1,200        |
 
-| Total Customers | 1,189 |
+| Total Customers           | 1,189        |
 
-| Total Revenue | 1,264,761.96 |
+| Total Revenue             | 1,264,761.96 |
 
-| Average Order Value | 1,053.97 |
+| Average Order Value       | 1,053.97     |
 
-| Risk Orders | 497 |
+| Risk Orders               | 497          |
 
-| Normal Orders | 703 |
+| Normal Orders             | 703          |
 
-| High-Value Outlier Orders | 8 |
+| High-Value Outlier Orders | 8            |
 
 
 
@@ -388,25 +388,25 @@ Monthly revenue, monthly order volume, and monthly average order value were anal
 
 
 
-| Finding | Value |
+| Finding                         | Value     |
 
-|---|---:|
+|---------------------------------|----------:|
 
-| Highest Revenue Month | 2024-06 |
+| Highest Revenue Month           | 2024-06   |
 
-| Highest Monthly Revenue | 68,068.54 |
+| Highest Monthly Revenue         | 68,068.54 |
 
-| Orders in Highest Revenue Month | 53 |
+| Orders in Highest Revenue Month | 53        |
 
-| AOV in Highest Revenue Month | 1,284.31 |
+| AOV in Highest Revenue Month    | 1,284.31  |
 
-| Lowest Revenue Month | 2023-04 |
+| Lowest Revenue Month            | 2023-04   |
 
-| Lowest Monthly Revenue | 27,751.71 |
+| Lowest Monthly Revenue          | 27,751.71 |
 
-| Orders in Lowest Revenue Month | 31 |
+| Orders in Lowest Revenue Month  | 31        |
 
-| AOV in Lowest Revenue Month | 895.22 |
+| AOV in Lowest Revenue Month     | 895.22    |
 
 
 
@@ -438,21 +438,21 @@ Correlation analysis was used to understand relationships between numerical vari
 
 
 
-| Variables | Correlation |
+| Variables                 | Correlation |
 
-|---|---:|
+|---------------------------|------------:|
 
-| UnitPrice vs TotalPrice | 0.72 |
+| UnitPrice vs TotalPrice   | 0.72        |
 
-| Quantity vs ItemsInCart | 0.65 |
+| Quantity vs ItemsInCart   | 0.65        |
 
-| Quantity vs TotalPrice | 0.62 |
+| Quantity vs TotalPrice    | 0.62        |
 
-| ItemsInCart vs TotalPrice | 0.39 |
+| ItemsInCart vs TotalPrice | 0.39        |
 
-| Quantity vs UnitPrice | 0.01 |
+| Quantity vs UnitPrice     | 0.01        |
 
-| UnitPrice vs ItemsInCart | 0.00 |
+| UnitPrice vs ItemsInCart  | 0.00        |
 
 
 
@@ -544,13 +544,13 @@ Coupon users and non-coupon users were compared using total orders, total revenu
 
 
 
-| Group | Average Order Value |
+| Group       | Average Order Value |
 
-|---|---:|
+|-------------|--------------------:|
 
-| Coupon Used | 1,057.64 |
+| Coupon Used | 1,057.64            |
 
-| No Coupon | 1,043.37 |
+| No Coupon   | 1,043.37            |
 
 
 
@@ -614,21 +614,21 @@ Delivered, shipped, and pending orders were grouped as \*\*Normal Orders\*\*.
 
 
 
-| Metric | Value |
+| Metric                      | Value     |
 
-|---|---:|
+|-----------------------------|----------:|
 
-| Risk Orders | 497 |
+| Risk Orders                 | 497       |
 
-| Normal Orders | 703 |
+| Normal Orders               | 703       |
 
-| Highest Risk Product | Monitor |
+| Highest Risk Product        | Monitor   |
 
-| Monitor Risk Rate | 43.56% |
+| Monitor Risk Rate           | 43.56%    |
 
 | Highest Risk Payment Method | Gift Card |
 
-| Gift Card Risk Rate | 44.35% |
+| Gift Card Risk Rate         | 44.35%    |
 
 
 
